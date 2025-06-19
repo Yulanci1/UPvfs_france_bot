@@ -7,10 +7,4 @@ app = "vfs-france-bot"
   SLEEP_INTERVAL = "300"
   VFS_BASE_URL = "https://visa.vfsglobal.com/rus/ru/fra/book-an-appointment"
 
-[[services]]
-  internal_port = 8080
-  protocol = "tcp"
 
-  [[services.ports]]
-    handlers = ["http"]
-    port = 80
